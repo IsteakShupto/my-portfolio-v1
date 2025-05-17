@@ -21,6 +21,7 @@ export const skills = [
   { title: "Node.js", icon: "fa-brands fa-node" },
   { title: "Express.js", icon: "fa-solid fa-network-wired" },
   { title: "Django RF", icon: "fa-solid fa-server" },
+  { title: "Hono.js", icon: "fa-solid fa-fire-flame-curved" },
 
   // Databases & ORM
   { title: "MongoDB", icon: "fa-solid fa-leaf" },
