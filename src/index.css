@@ -1,0 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Spicy+Rice:regular);
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: dark --default;
+}
