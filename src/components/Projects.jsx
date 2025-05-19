@@ -12,7 +12,7 @@ export default function Projects() {
             <ProjectCard
               title={"Aesthestore"}
               description={
-                "Aesthestore is a full-stack web application - a clean, aesthetic sticker and notebook shop built to explore and integrate Stripe Checkout from scratch."
+                "Aesthestore is a full-stack web application - a clean, aesthetic sticker and notebook shop built to explore & integrate Stripe Checkout from scratch."
               }
               tags={[
                 "Next.js",
