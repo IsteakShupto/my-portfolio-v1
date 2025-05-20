@@ -28,7 +28,7 @@ export default function Projects() {
             <ProjectCard
               title={"FlashType"}
               description={
-                "FlashType is a full-stack web application that tracks typing performance and tests typing speed in real time."
+                "FlashType is a full-stack web application that tracks the typing performance and speed in real time."
               }
               tags={[
                 "React.js",
