@@ -1,7 +1,7 @@
 export default function ProjectCard({ title, description, tags, details }) {
   return (
     <>
-      <div className="card bg-base-100 w-[325px] md:w-[425px] shadow-sm">
+      <div className="card bg-base-100 w-[325px] md:w-[375px] shadow-sm">
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
           <p className="py-3 text-wrap">{description}</p>
