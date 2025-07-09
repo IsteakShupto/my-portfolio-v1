@@ -59,6 +59,53 @@ export default function Projects() {
               tags={["React.js", "TailwindCSS", "Local storage", "TypeScript"]}
               details="https://github.com/IsteakShupto/gym_workout_tracker"
             />
+
+            <ProjectCard
+              title={"AI code reviewer"}
+              description={
+                "This is an AI-based code review web application built with React.js, Redux Toolkit, Express.js, and the Gemini SDK. It generates structured and intelligent feedback on code snippets using different animal-themed reviewer personas."
+              }
+              tags={[
+                "React.js",
+                "TailwindCSS",
+                "DaisyUI",
+                "Redux Toolkit",
+                "Express.js",
+                "Gemini SDK",
+              ]}
+              details="https://github.com/IsteakShupto/ai-code-reviewer"
+            />
+
+            <ProjectCard
+              title={"Langverse with voice input"}
+              description={
+                "Langverse is a real-time multi-language translator app built with React, Redux Toolkit, and a nodejs backend that integrates with Google Gemini for language translation. It supports both text and voice inputs, translating from English into selected languages such as Bengali, Arabic, French, and Spanish."
+              }
+              tags={[
+                "React.js",
+                "TailwindCSS",
+                "DaisyUI",
+                "Redux Toolkit",
+                "Express.js",
+                "Gemini SDK",
+              ]}
+              details="https://github.com/IsteakShupto/langverse"
+            />
+
+            <ProjectCard
+              title={"Devlop.me"}
+              description={
+                "A pixel perfect mobile and desktop friendly web landing page designed using React.JS and Framer motion with dark/light mode switching feature availability."
+              }
+              tags={[
+                "React.js",
+                "TailwindCSS",
+                "Local storage",
+                "TypeScript",
+                "Framer motion",
+              ]}
+              details="https://github.com/IsteakShupto/devlop.me"
+            />
           </div>
         </div>
       </div>
