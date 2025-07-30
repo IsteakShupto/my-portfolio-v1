@@ -1,12 +1,12 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-import { ExternalLink, Github } from 'lucide-react';
-import { projects } from '../utils/projects';
+import React from "react";
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { ExternalLink, Github } from "lucide-react";
+import { projects } from "../utils/projects";
 
 const Projects: React.FC = () => {
-  const featuredProjects = projects.filter(p => p.featured);
-  const otherProjects = projects.filter(p => !p.featured);
+  const featuredProjects = projects.filter((p) => p.featured);
+  const otherProjects = projects.filter((p) => !p.featured);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 pt-20">
@@ -23,8 +23,8 @@ const Projects: React.FC = () => {
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A collection of my latest work spanning web development, mobile apps, 
-            and innovative solutions built with modern technologies.
+            A collection of my latest work spanning web development and
+            innovative solutions built with modern technologies.
           </p>
         </motion.div>
 
