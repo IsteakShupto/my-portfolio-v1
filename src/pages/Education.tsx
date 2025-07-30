@@ -17,7 +17,7 @@ const Education: React.FC = () => {
       period: "2017 - 2019",
     },
     {
-      degree: "Secondary School (Science)",
+      degree: "Secondary School Certificate (Science)",
       institution: "Banani Bidyaniketan School & College",
       location: "Dhaka, Bangladesh",
       period: "2006 - 2017",
