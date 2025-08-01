@@ -148,7 +148,7 @@ const Navbar: React.FC = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/shupto"
+                href="https://github.com/IsteakShupto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
